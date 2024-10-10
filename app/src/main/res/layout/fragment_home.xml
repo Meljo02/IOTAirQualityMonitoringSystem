@@ -8,10 +8,12 @@
 
 
     <TextView
-        android:gravity="center"
-        android:textSize="30sp"
+        android:id="@+id/statusTextView"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/Homefragment" />
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Led Status"
+        android:textSize="30sp" />
+
 
 </FrameLayout>

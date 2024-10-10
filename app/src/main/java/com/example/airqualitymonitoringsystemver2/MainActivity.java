@@ -1,4 +1,4 @@
-package com.example.airqualitymonitoringsystemver2;package;
+package com.example.airqualitymonitoringsystemver2;
 
 import android.os.Bundle;
 import android.view.MenuItem;
