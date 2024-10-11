@@ -42,7 +42,7 @@ public class Home extends Fragment {
             @Override
             public void onDataChange(@NonNull DataSnapshot snapshot) {
                 String ledStatus = snapshot.getValue(String.class);
-                statusTextView.setText(ledStatus);
+                statusTextView.setText("The LED is " + ledStatus);
             }
 
             @Override
