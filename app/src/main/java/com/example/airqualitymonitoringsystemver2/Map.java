@@ -36,7 +36,7 @@ public class Map extends Fragment implements OnMapReadyCallback {
 
     @Override
     public void onMapReady(@NonNull GoogleMap googleMap) {
-        LatLng location = new LatLng(14.520445, 121.053886);
+        LatLng location = new LatLng(14.550340, 121.052185);
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 12));
 
     }

@@ -38,6 +38,6 @@
         app:headerLayout="@layout/nav_header"
         android:background="@color/lavander_light"
         app:itemIconPadding="30dp"
-        app:itemTextColor="@color/lavander_dark"/>
+        app:itemTextColor="@color/black"/>
 
 </androidx.drawerlayout.widget.DrawerLayout>
